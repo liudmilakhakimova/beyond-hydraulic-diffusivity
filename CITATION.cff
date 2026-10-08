@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript when using this code."
+message: "Please cite the accompanying preprint when using this code."
 type: software
-title: "Reaction-front diffusivity: MATLAB code"
+title: "beyond-hydraulic-diffusivity: MATLAB code"
+license: MIT
 authors:
   - family-names: Khakimova
     given-names: Liudmila
@@ -12,3 +13,19 @@ authors:
   - family-names: Podladchikov
     given-names: Yury Y.
     affiliation: University of Lausanne
+preferred-citation:
+  type: article
+  title: >-
+    Beyond hydraulic diffusion: reaction front propagation and
+    timescales in metamorphic (de)volatilization processes
+  authors:
+    - family-names: Khakimova
+      given-names: Liudmila
+    - family-names: Schmalholz
+      given-names: Stefan M.
+    - family-names: Podladchikov
+      given-names: Yury Y.
+  journal: "EGUsphere [preprint]"
+  year: 2026
+  doi: "10.5194/egusphere-2026-3107"
+  url: "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3107/"

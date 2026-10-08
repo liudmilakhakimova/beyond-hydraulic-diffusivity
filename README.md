@@ -1,4 +1,4 @@
-# Reaction-front diffusivity
+# Beyond hydraulic diffusivity
 
 MATLAB code and input data accompanying:
 
@@ -26,7 +26,8 @@ The scripts compare analytical and numerical front propagation, distinguish effe
 | `data/` | Four saved single-front simulation datasets and digitized experimental profiles. Variables, dimensions and sources are described in [data/README.md](data/README.md). |
 | `reference/FIG_2.png` | Reference rendering of Figure 2 for visual comparison. |
 | `figures/` | Output directory for generated PNG files, the animation and the MATLAB session log; created during execution. |
-| `CITATION.cff` | Machine-readable repository citation metadata. |
+| `CITATION.cff` | Software metadata and preferred citation of the accompanying preprint. |
+| `LICENSE` | MIT license for the source code and documentation. |
 
 Figure 2 is plotted from the saved simulation datasets. The solvers that generated those datasets are not included. Figure 1 has no generation script in this repository.
 
@@ -51,6 +52,12 @@ The model derivation, notation and full bibliography are given in the accompanyi
 - Beinlich, A., John, T., Vrijmoed, J. C., et al. (2020). Instantaneous rock transformations in the deep crust driven by reactive fluid flow. *Nature Geoscience*, 13, 307-311. [doi:10.1038/s41561-020-0554-9](https://doi.org/10.1038/s41561-020-0554-9).
 - John, T., Gussone, N., Podladchikov, Y., et al. (2012). Volcanic arcs fed by rapid pulsed fluid flow through subducting slabs. *Nature Geoscience*, 5, 489-492. [doi:10.1038/ngeo1482](https://doi.org/10.1038/ngeo1482).
 - Taetz, S., John, T., Bröcker, M., Spandler, C., and Stracke, A. (2018). Fast intraslab fluid-flow events linked to pulses of high pore fluid pressure at the subducted plate interface. *Earth and Planetary Science Letters*, 482, 33-43. [doi:10.1016/j.epsl.2017.10.044](https://doi.org/10.1016/j.epsl.2017.10.044).
+
+## License
+
+The MATLAB source code and documentation are distributed under the [MIT License](LICENSE).
+Input datasets and reference images are outside the scope of this software license.
+Their sources and attributions are described in [data/README.md](data/README.md) and the accompanying manuscript.
 
 ## Authors
 
