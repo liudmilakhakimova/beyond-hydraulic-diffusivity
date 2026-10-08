@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this code."
+type: software
+title: "Reaction-front diffusivity: MATLAB code"
+authors:
+  - family-names: Khakimova
+    given-names: Liudmila
+    affiliation: University of Lausanne
+  - family-names: Schmalholz
+    given-names: Stefan M.
+    affiliation: University of Lausanne
+  - family-names: Podladchikov
+    given-names: Yury Y.
+    affiliation: University of Lausanne

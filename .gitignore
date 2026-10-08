@@ -1,0 +1,4 @@
+figures/
+*.asv
+*.m~
+.DS_Store

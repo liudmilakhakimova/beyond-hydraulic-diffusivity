@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.m text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.mat binary
+*.png binary
